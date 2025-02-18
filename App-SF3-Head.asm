@@ -3,7 +3,7 @@ nolist
 org #1000
 
 WRITE "f:\symbos\apps\sf3mon.exe"
-READ "..\..\..\..\SVN-Main\trunk\SymbOS-Constants.asm"
+READ "..\..\..\SRC-Main\SymbOS-Constants.asm"
 
 relocate_start
 
@@ -110,8 +110,8 @@ use_SySystem_SYSWRN     equ 1   ;Opens an info, warning or confirm box
 use_SySystem_SELOPN     equ 0   ;Opens the file selection dialogue
 use_SySystem_HLPOPN     equ 1   ;HLP file handling (requires use_SySystem_PRGRUN)
 
-READ "..\..\..\..\SVN-Main\trunk\Docs-Developer\symbos_lib-DesktopManager.asm"
-READ "..\..\..\..\SVN-Main\trunk\Docs-Developer\symbos_lib-SystemManager.asm"
+READ "..\..\..\SRC-Main\Docs-Developer\symbos_lib-DesktopManager.asm"
+READ "..\..\..\SRC-Main\Docs-Developer\symbos_lib-SystemManager.asm"
 READ "App-SF3.asm"
 
 App_EndTrns
